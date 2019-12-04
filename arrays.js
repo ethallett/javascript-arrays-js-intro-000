@@ -42,7 +42,7 @@ function destructivelyRemoveElementFromBeginningOfArray(){
  function destructivelyRemoveElementFromEndOfArray(){
    var array = [1, 2, 3];
    array.pop(2);
-   return(array);
+   return(array.pop(2));
  }
 
  function removeElementFromEndOfArray(){
