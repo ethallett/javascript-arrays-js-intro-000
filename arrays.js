@@ -31,7 +31,7 @@ function accessElementInArray(){
 
 function destructivelyRemoveElementFromBeginningOfArray(){
   const array = [1, 2, 3];
-  return(array.shift(0));
+  return(array.shift());
 }
  function removeElementFromBeginningOfArray(){
    const array = [1, 2, 3];
@@ -41,7 +41,7 @@ function destructivelyRemoveElementFromBeginningOfArray(){
 
  function destructivelyRemoveElementFromEndOfArray(){
    var array = [1, 2, 3];
-   array.pop(2);
+   array.pop();
    return(array);
  }
 
