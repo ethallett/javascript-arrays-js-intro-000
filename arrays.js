@@ -31,8 +31,7 @@ function accessElementInArray(){
 
 function destructivelyRemoveElementFromBeginningOfArray(){
   var array = [1, 2, 3];
-   var array = array.shift());
-   return(array);
+  return(array.shift());
 
 }
  function removeElementFromBeginningOfArray(){
