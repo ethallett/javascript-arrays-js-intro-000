@@ -9,7 +9,7 @@ function addElementToBeginningOfArray() {
 
 function destructivelyAddElementToBeginningOfArray(){
   var array = [1]
-  console.log(array.unshift("foo"));
+  return(array.unshift("foo"));
 }
 
 function addElementToEndOfArray() {
