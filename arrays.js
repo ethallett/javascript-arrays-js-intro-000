@@ -44,7 +44,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element) {
 
  function removeElementFromEndOfArray(array){
   var array = [1,2,3]
-  array.slice(2)
-  return(array)
+  return(array.slice(3))
 
 }
